@@ -8,11 +8,12 @@
 		width: 100%;
 		clip-path: polygon(21rem 0, 100% 9rem, 100% 100%, 0 100%, 0 4rem);
 		padding-top: 4rem;
+		z-index: 1;
 	}
 
-	@media (max-width: 1280px) {
+	@media (max-width: 1080px) {
 		section {
-			z-index: 20;
+			z-index: 10;
 			position: absolute;
 		}
 	}

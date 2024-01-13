@@ -1,12 +1,10 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-
-
 	onMount(() => {
 		const typedTextSpan = document.querySelector('.typed-text') as HTMLSpanElement;
-		const words = ['BROWSER','CHROME', 'TWITCH', 'FIREFOX', 'CHAT GPT'];
-		const colors = ['#fff','#1A73E8', '#5A3E85', '#FFB724', '#74AA9C'];
+		const words = ['BROWSER', 'CHROME', 'TWITCH', 'FIREFOX', 'CHAT GPT'];
+		const colors = ['#fff', '#1A73E8', '#5A3E85', '#FFB724', '#74AA9C'];
 		let wordIndex = 0;
 		let charIndex = 0;
 		let isRemoving = false;
@@ -15,7 +13,7 @@
 
 		const type = () => {
 			if (isRemoving) {
-				typedTextSpan.style.color = "#fdfdfd";
+				typedTextSpan.style.color = '#fdfdfd';
 				if (charIndex > 0) {
 					if (typedTextSpan) {
 						typedTextSpan.textContent = words[wordIndex].substring(0, charIndex - 1);
@@ -36,8 +34,8 @@
 					}
 				} else {
 					if (typedTextSpan) {
-							typedTextSpan.style.color = colors[wordIndex];
-						}
+						typedTextSpan.style.color = colors[wordIndex];
+					}
 					// Start removing text
 					isRemoving = true;
 					setTimeout(type, newWordDelay);
@@ -68,7 +66,7 @@
 		color: #fdfdfd;
 		z-index: 10;
 		text-rendering: optimizelegibility;
-		filter: drop-shadow(0px 0px 1.3rem rgba(0,0,0,0.5));
+		filter: drop-shadow(0px 0px 1.3rem rgba(0, 0, 0, 0.5));
 	}
 
 	@media (max-width: 1280px) {
@@ -103,7 +101,7 @@
 		height: 4.25rem;
 		width: 0.625rem;
 		transform: translate(-0.3125rem, 0.45rem);
-		background-color: #fdfdfd;
+		background-color: #05d2d9;
 		animation: flash 800ms linear infinite;
 	}
 
@@ -118,6 +116,4 @@
 			margin-left: 4.25rem;
 		}
 	}
-
-
 </style>

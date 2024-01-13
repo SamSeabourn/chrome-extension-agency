@@ -28,7 +28,6 @@
 	}
 	h1 {
 		font-family: 'Bungee-Regular', sans-serif;
-
 		font-size: 2.7rem;
 		font-weight: 900;
 		letter-spacing: -0.03rem;
@@ -38,6 +37,7 @@
 		margin-left: 3rem;
 		display: flex;
 		align-items: center;
+		color: #05d2d9;
 	}
 
 	h3 {

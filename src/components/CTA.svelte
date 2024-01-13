@@ -15,7 +15,7 @@
 	}
 
 	p {
-		color: #f2f3f6;
+		color: #170d1e;
 		font-family: 'GeneralSans-Variable', sans-serif;
 		font-size: 3rem;
 		font-style: normal;
@@ -31,19 +31,19 @@
 		}
 	}
 	a {
-		color: #e8ff7c;
+		color: #05d2d9;
 		font-family: 'GeneralSans-Variable', sans-serif;
 		text-decoration: none;
 	}
 
 	a:hover {
-		color: #170d1e;
+		color: #fff;
 		font-weight: 600;
 		text-shadow:
-			-1px -1px 0 #e8ff7c,
-			1px -1px 0 #e8ff7c,
-			-1px 1px 0 #e8ff7c,
-			1px 1px 0 #e8ff7c;
+			-0.1rem -0.1rem 0 #05d2d9,
+			0.1rem -0.1rem 0 #05d2d9,
+			-0.1rem 0.1rem 0 #05d2d9,
+			0.1rem 0.1rem 0 #05d2d9;
 		text-decoration: none;
 	}
 </style>

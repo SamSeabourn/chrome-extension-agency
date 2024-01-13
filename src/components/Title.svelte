@@ -10,7 +10,7 @@
 	h1,
 	span {
 		margin: 2.5rem 0;
-		font-weight: 500;
+		font-weight: 600;
 		font-family: 'GeneralSans-Variable';
 		font-size: 3rem;
 	}
@@ -20,6 +20,6 @@
 	}
 
 	span {
-		color: #e8ff7c;
+		color: #05d2d9;
 	}
 </style>

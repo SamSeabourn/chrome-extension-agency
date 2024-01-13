@@ -19,18 +19,17 @@
 	.repeating-pattern {
 		background-repeat: repeat;
 		position: absolute;
-		width: 1000%;
-		height: 100%;
+		width: 100%;
+		height: 200%;
 		top: 0;
 		background-size: 40rem;
 	}
 
 	.gradient-overlay {
 		position: absolute;
-		width: 130rem;
-		height: 100%;
+		width: 100rem;
+		height: 200%;
 		top: 0;
-		background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-
+		background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
 	}
 </style>

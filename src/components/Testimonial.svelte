@@ -23,7 +23,7 @@
 
 <style>
 	span {
-		color: #e8ff7c;
+		color: #05d2d9;
 	}
 
 	.testimonal {

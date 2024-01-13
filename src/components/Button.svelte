@@ -10,7 +10,7 @@
 	button {
 		width: 13rem;
 		height: 3.5rem;
-		background-color: #e8ff7c;
+		background-color: #05d2d9;
 		border: none;
 		font-size: 1rem;
 		border-radius: 2rem;
@@ -18,7 +18,7 @@
 
 	button:hover {
 		background-color: transparent;
-		border: 3px solid #e8ff7c;
+		border: 3px solid #05d2d9;
 		color: white;
 		font-size: 1rem;
 		border-radius: 2rem;
