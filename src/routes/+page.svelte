@@ -1,7 +1,6 @@
 <script>
 	import { base } from '$app/paths';
 	import AirGap from '../components/AirGap.svelte';
-	import Button from '../components/Button.svelte';
 	import CTA from '../components/CTA.svelte';
 	import Cogs from '../components/Cogs.svelte';
 	import ContentPadding from '../components/ContentPadding.svelte';
@@ -11,7 +10,6 @@
 	import HeroPanel from '../components/HeroPanel.svelte';
 	import HeroText from '../components/HeroText.svelte';
 	import ImageBar from '../components/ImageBar.svelte';
-	import ImageCircle from '../components/ImageCircle.svelte';
 	import LogoPuck from '../components/LogoPuck.svelte';
 	import NavBar from '../components/NavBar.svelte';
 	import Paragraph from '../components/Paragraph.svelte';
@@ -62,7 +60,7 @@
 				<LogoPuck imageSource="{base}/tailwind-logo.svg" imageAlt="Tailwind" />
 			</div>
 		</FadeInOnScroll>
-		<AirGap />
+		<!-- <AirGap />
 		<Title>People we have worked with</Title>
 		<FadeInOnScroll id={'test0'}>
 			<ImageBar imageSource="{base}/placeholder.png" imageAlt="placeholder" />
@@ -109,7 +107,7 @@
 			and ad-free, significantly improving my browsing experience. It's great to find
 			extensions that are both powerful and simple to use. Highly recommend them for an
 			enhanced and hassle-free online experience!
-		</Testimonial>
+		</Testimonial> -->
 		<AirGap />
 		<CTA href={'chromeextension.agency'}>Lets build something together</CTA>
 		<AirGap />
