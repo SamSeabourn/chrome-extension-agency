@@ -9,11 +9,11 @@
 	import Footer from '../components/Footer.svelte';
 	import HeroPanel from '../components/HeroPanel.svelte';
 	import HeroText from '../components/HeroText.svelte';
-	import ImageBar from '../components/ImageBar.svelte';
+	// import ImageBar from '../components/ImageBar.svelte';
 	import LogoPuck from '../components/LogoPuck.svelte';
 	import NavBar from '../components/NavBar.svelte';
 	import Paragraph from '../components/Paragraph.svelte';
-	import Testimonial from '../components/Testimonial.svelte';
+	// import Testimonial from '../components/Testimonial.svelte';
 	import Title from '../components/Title.svelte';
 </script>
 
