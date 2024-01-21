@@ -115,5 +115,8 @@
 		.container {
 			margin-left: 4.25rem;
 		}
+		p {
+			font-size: 4rem;
+		}
 	}
 </style>

@@ -32,4 +32,14 @@
 		top: 0;
 		background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
 	}
+
+	@media (max-width: 500px) {
+		.gradient-overlay {
+			position: absolute;
+			width: 75%;
+			height: 150%;
+			top: 0;
+			background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+		}
+	}
 </style>

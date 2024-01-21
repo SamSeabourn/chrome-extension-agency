@@ -4,9 +4,9 @@
 </script>
 
 <nav>
-	<a href="{base}/" aria-label="Home page">
-		<div class="the-wrapper"><h3>THE</h3></div>
-		<h1>{title}</h1>
+	<a href="{base}/">
+		<div class="the-wrapper"><h3 aria-label="The">THE</h3></div>
+		<h1 aria-label={title}>{title}</h1>
 	</a>
 </nav>
 
@@ -49,6 +49,12 @@
 		display: flex;
 		color: #170d1e;
 		text-decoration: none;
+	}
+
+	@media (max-width: 500px) {
+		h1 {
+			font-size: 2rem;
+		}
 	}
 
 	a:hover,

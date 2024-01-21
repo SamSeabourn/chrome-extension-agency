@@ -9,11 +9,9 @@
 	import Footer from '../components/Footer.svelte';
 	import HeroPanel from '../components/HeroPanel.svelte';
 	import HeroText from '../components/HeroText.svelte';
-	// import ImageBar from '../components/ImageBar.svelte';
 	import LogoPuck from '../components/LogoPuck.svelte';
 	import NavBar from '../components/NavBar.svelte';
 	import Paragraph from '../components/Paragraph.svelte';
-	// import Testimonial from '../components/Testimonial.svelte';
 	import Title from '../components/Title.svelte';
 </script>
 
@@ -24,7 +22,7 @@
 </HeroPanel>
 <ContentPanel>
 	<ContentPadding>
-		<Title>Extend the web</Title>
+		<Title label="Extend the web">Extend the web</Title>
 		<Paragraph>
 			We specialize in crafting custom extensions for Twitch, Chrome, and Firefox. We empower
 			businesses and individual creators to elevate their online presence through bespoke
@@ -41,7 +39,7 @@
 		</div>
 		<AirGap />
 		<FadeInOnScroll id={'youDecide'}>
-			<Title>You Decide</Title>
+			<Title label="You decide">You Decide</Title>
 			<Paragraph>
 				We offer the flexibility to choose your preferred technology, ensuring our solutions
 				align perfectly with your existing codebase. Our team is skilled in a range of
@@ -60,54 +58,6 @@
 				<LogoPuck imageSource="{base}/tailwind-logo.svg" imageAlt="Tailwind" />
 			</div>
 		</FadeInOnScroll>
-		<!-- <AirGap />
-		<Title>People we have worked with</Title>
-		<FadeInOnScroll id={'test0'}>
-			<ImageBar imageSource="{base}/placeholder.png" imageAlt="placeholder" />
-			<Paragraph>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quae facere minima
-				quos iure sit nesciunt similique accusamus. Pariatur dicta aliquam animi. Recusandae
-				dolorem neque nam provident maiores ut a?
-			</Paragraph>
-		</FadeInOnScroll>
-		<AirGap />
-		<FadeInOnScroll id={'test1'}>
-			<ImageBar imageSource="{base}/placeholder.png" imageAlt="placeholder" />
-			<Paragraph>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quae facere minima
-				quos iure sit nesciunt similique accusamus. Pariatur dicta aliquam animi. Recusandae
-				dolorem neque nam provident maiores ut a?
-			</Paragraph>
-		</FadeInOnScroll>
-		<AirGap />
-		<FadeInOnScroll id={'test3'}>
-			<ImageBar imageSource="{base}/placeholder.png" imageAlt="placeholder" />
-			<Paragraph>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quae facere minima
-				quos iure sit nesciunt similique accusamus. Pariatur dicta aliquam animi. Recusandae
-				dolorem neque nam provident maiores ut a?
-			</Paragraph>
-		</FadeInOnScroll>
-		<AirGap />
-		<Title>Testimonials</Title>
-		<Testimonial imageSource="{base}/persona.webp" userName={'Zark Muckerberg'}>
-			I've been Slinky for a year, and they're fantastic. They're user-friendly, efficient,
-			and ad-free, significantly improving my browsing experience. It's great to find
-			extensions that are both powerful and simple to use. Highly recommend them for an
-			enhanced and hassle-free online experience!
-		</Testimonial>
-		<Testimonial imageSource="{base}/persona.webp" userName={'Jeave Stobs'}>
-			I've been Slinky for a year, and they're fantastic. They're user-friendly, efficient,
-			and ad-free, significantly improving my browsing experience. It's great to find
-			extensions that are both powerful and simple to use. Highly recommend them for an
-			enhanced and hassle-free online experience!
-		</Testimonial>
-		<Testimonial imageSource="{base}/persona.webp" userName={'Melon Zusk'}>
-			I've been Slinky for a year, and they're fantastic. They're user-friendly, efficient,
-			and ad-free, significantly improving my browsing experience. It's great to find
-			extensions that are both powerful and simple to use. Highly recommend them for an
-			enhanced and hassle-free online experience!
-		</Testimonial> -->
 		<AirGap />
 		<CTA href={'chromeextension.agency'}>Lets build something together</CTA>
 		<AirGap />
