@@ -1,8 +1,8 @@
-<script lang='ts'>
-	export let label: string
+<script lang="ts">
+	export let label: string;
 </script>
 
-<h1 aria-label="{label}"><slot /><span>.</span></h1>
+<h1 aria-label={label}><slot /><span>.</span></h1>
 
 <style>
 	@font-face {

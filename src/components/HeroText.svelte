@@ -100,6 +100,7 @@
 		display: inline-block;
 		height: 4.25rem;
 		width: 0.625rem;
+		margin-left: 0.5rem;
 		transform: translate(-0.3125rem, 0.45rem);
 		background-color: #05d2d9;
 		animation: flash 800ms linear infinite;
